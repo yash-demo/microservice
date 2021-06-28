@@ -8,6 +8,7 @@ pipeline {
      
      SERVICE_NAME = "sample-microservice"
      REPOSITORY_TAG="${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
+     registry="yasha192/${REPOSITORY_TAG}"
    }
    
    
